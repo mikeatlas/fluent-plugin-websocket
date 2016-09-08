@@ -6,6 +6,8 @@ This plugin works as websocket server which can output JSON string or {MessagePa
 
 In the current version, emitted data will be broadcasted to the all connected clients.
 
+This fork is from {moccos/fluent-plugin-websocket}[https://github.com/moccos/fluent-plugin-websocket], but locks in Ruby 1.9 as a minimum Ruby version. The newest fluentd gem dependency "serverengine" requires Ruby 2.1.
+
 == Installation
 
     gem install fluent-plugin-websocket
